@@ -1,0 +1,27 @@
+.footer {
+  background-color: var(--color-navy);
+  margin-top: 80px;
+}
+
+.footer-inner {
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.footer-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.footer-text {
+  color: #c7d7e8;
+  font-size: 0.95rem;
+}
+
+.footer-note {
+  color: #7d93ab;
+  font-size: 0.8rem;
+  margin-top: 12px;
+}

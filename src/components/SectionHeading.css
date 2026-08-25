@@ -1,0 +1,28 @@
+.section-heading {
+  margin-bottom: 40px;
+}
+
+.section-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 2rem;
+}
+
+.section-subtitle {
+  margin-top: 12px;
+  color: var(--color-muted);
+  font-size: 1.05rem;
+  max-width: 60ch;
+}
+
+@media (max-width: 640px) {
+  .section-title {
+    font-size: 1.6rem;
+  }
+}

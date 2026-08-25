@@ -1,0 +1,47 @@
+.event-card {
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(15, 41, 66, 0.06);
+}
+
+.event-card-image {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.event-card-body {
+  padding: 20px;
+}
+
+.event-card-year {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.event-card-description {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
+.event-card-winner {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-primary-dark);
+}
+
+.event-card-moment {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin-top: 6px;
+  font-style: italic;
+}

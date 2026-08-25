@@ -1,0 +1,89 @@
+.hero {
+  min-height: calc(100vh - 68px);
+  display: flex;
+  align-items: center;
+  background-color: var(--color-bg);
+}
+
+.hero-inner {
+  position: relative;
+  text-align: center;
+  padding: 100px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Signature element: an oversized quotation mark, since "Samvad"
+   means dialogue/conversation. Kept faint so it reads as texture,
+   not decoration competing with the content. */
+.hero-mark {
+  position: absolute;
+  top: -20px;
+  font-family: var(--font-display);
+  font-size: 14rem;
+  line-height: 1;
+  color: var(--color-primary);
+  opacity: 0.07;
+  pointer-events: none;
+  user-select: none;
+}
+
+.hero-eyebrow {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 4.5rem;
+  color: var(--color-navy);
+  margin-bottom: 36px;
+}
+
+.hero-coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 24px;
+}
+
+.hero-year {
+  font-size: 1.1rem;
+  color: var(--color-primary-dark);
+  font-weight: 500;
+}
+
+.hero-status {
+  display: inline-block;
+  padding: 6px 18px;
+  border: 1px solid var(--color-primary);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary-dark);
+  background-color: var(--color-primary-soft);
+}
+
+.hero-tagline {
+  color: var(--color-muted);
+  font-size: 1.1rem;
+  max-width: 46ch;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 640px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-mark {
+    font-size: 9rem;
+  }
+
+  .hero-inner {
+    padding: 70px 24px;
+  }
+}
