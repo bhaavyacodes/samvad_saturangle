@@ -8,7 +8,7 @@ import ThroughYears from './pages/ThroughYears.jsx'
 // The whole site has exactly three pages, wired up with React Router.
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <main>
         <Routes>
@@ -18,7 +18,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
